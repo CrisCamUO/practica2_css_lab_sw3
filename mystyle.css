@@ -1,0 +1,63 @@
+/*Hoja de estilo*/
+/*Id - estilo para el contenedero de la cabecera de la página*/
+#footnotetitle{
+    text-align: center;
+}
+#grid-container-header{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+/*Id - estilo para el contenedor de contenido en la página*/
+#gridBody{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+#headtitle {
+    text-align: center;
+}
+/*class - estilo para el pie de página de la página*/
+.padding{
+    background-color: rgb(255, 236, 172);
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+}
+/*class - estilo para las secciones de la grilla*/
+.tl-br{
+    text-align: right;
+    background-color: mediumpurple;
+    border-color: purple;
+}
+/*class - estilo para las secciones de la grilla*/
+.ct-cb{
+    text-align: center;
+    background-color: rgb(100, 212, 100);
+    border-color: green;
+}
+/*class - estilo para las secciones de la grilla*/
+.tr-bl{
+    text-align: left;
+    background-color: rgb(70, 167, 228);
+    border-color: blue;
+    
+}
+/*Agrupación - estilo para las cajas de la grilla*/
+p,h2,#headtitle,#footnotetitle{
+    color: rgb(51, 10, 80);
+}
+.tl-br,.ct-cb,.tr-bl{
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 2px;
+    
+}
+#headtitle, #footnotetitle{
+    font-family: Arial;
+}
+img{
+    width: auto;
+    height: 70px;
+}
