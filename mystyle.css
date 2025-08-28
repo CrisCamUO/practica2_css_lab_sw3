@@ -1,22 +1,31 @@
 /*Hoja de estilo*/
-/*Id - estilo para el contenedero de la cabecera de la página*/
-#footnotetitle{
-    text-align: center;
-}
+
+/*Id - estilo para la grilla de la cabecera*/
 #grid-container-header{
     display: grid;
     grid-template-columns: 25% 75%;
 }
-/*Id - estilo para el contenedor de contenido en la página*/
+/*id - estilo para el texto de el título de la cabecera*/
+#headtitle {
+    text-align: center;
+}
+/*Id - estilo para el texto del pie de página*/
+#footnotetitle{
+    text-align: center;
+}
+/*Id - estilo para la grilla de contenido*/
 #gridBody{
     gap: 10px;
     display: grid;
     grid-template-columns: 33% 34% 33%;
 }
-#headtitle {
-    text-align: center;
+/*class - estilo para los contenedores de la grilla del contenido*/
+.tl-br{
+    text-align: right;
+    background-color: mediumpurple;
+    border-color: purple;
 }
-/*class - estilo para el pie de página de la página*/
+/*class - estilo con padding para el pie de página*/
 .padding{
     background-color: rgb(255, 236, 172);
     border-radius: 12px;
@@ -25,12 +34,7 @@
     padding-bottom: 5px;
     padding-left: 80px;
 }
-/*class - estilo para las secciones de la grilla*/
-.tl-br{
-    text-align: right;
-    background-color: mediumpurple;
-    border-color: purple;
-}
+
 /*class - estilo para las secciones de la grilla*/
 .ct-cb{
     text-align: center;
@@ -48,15 +52,22 @@
 p,h2,#headtitle,#footnotetitle{
     color: rgb(51, 10, 80);
 }
+/*Agrupación - estilo para el contorno de los contenedores de las grillas de contenido + padding*/
 .tl-br,.ct-cb,.tr-bl{
     border-radius: 12px;
     border-style: solid;
     border-width: 2px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
     
 }
+/*Agrupación - estilo para la fuente de texto de la cabecera y pie de página*/
 #headtitle, #footnotetitle{
     font-family: Arial;
 }
+/*etiqueta - estilo para el tamaño de las imágenes*/
 img{
     width: auto;
     height: 70px;
